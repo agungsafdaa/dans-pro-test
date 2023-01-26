@@ -1,0 +1,229 @@
+.navbar {
+    background: #ffff !important;
+    color: #000 !important;
+    a{
+        text-decoration: none;
+        color:#000;
+    }
+
+    .login{
+        text-decoration: none;
+        color:#fff;
+        background: #0D6EFD;
+        border-radius: 8px;
+        text-transform: capitalize;
+        padding:10px 15px;
+
+        button{
+        color:#fff!important;
+        text-transform: capitalize;
+        }
+    }
+    .menu{
+        display: flex;
+        gap:10px;
+        a{
+            text-decoration: none;
+            color:#000;
+        }
+    }
+    button {
+        color: #000 !important;
+    }
+}
+
+.hero {
+    background: #E6F0F9;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .welcome-text {
+            h3 {
+                font-size: 2rem !important;
+
+                span {
+                    color: #0D6EFD;
+                }
+            }
+
+            .search {
+                z-index: 999;
+
+                input {
+                    background: #ffff;
+                    z-index: 999;
+                    color: gray;
+                    border-radius: 15px;
+                    border: none;
+                }
+
+                fieldset {
+                    border-style: none;
+                    background: #ffff;
+                    border-radius: 15px;
+
+                }
+
+                .toggle {
+                    z-index: 999;
+                }
+            }
+        }
+
+        .asset {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
+.lowongan-terbaru {
+    margin: 50px 0;
+    a{
+        text-decoration: none;
+        color:#000;
+    }
+    h3 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .list-lowongan {
+        margin:20px 0;
+      
+        .card-lowongan {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            border: 1px solid #dedede;
+            box-shadow: none;
+            &:hover{
+                background:#002745;
+                color:#ffff;
+                .heading{
+                    .nama{
+                        color:#ffff;
+                    }
+                }
+            }
+            .heading{
+                display: flex;
+                gap:15px;
+                align-items: center;
+                .nama{
+                    h5{
+                        display: block;
+                        font-weight: 700;
+                        color: #222222;
+                        font-size: 16px;
+                        margin-top: 30px;
+                        transition:  300ms cubic-bezier(0.215,0.61,0.355,1);
+                        transition-property: color;
+                        text-decoration: none;
+                        &:hover{
+                            color:#0D6EFD;
+                        }
+                    }
+                    p{
+                        font-weight: 500;
+                        text-decoration: none;
+                        color: #6c757d;
+                        transition:  300ms cubic-bezier(0.215,0.61,0.355,1);
+                        transition-property: color;
+                        font-size: 13px;
+                        margin:5px 0 0 0;
+                        display: flex;
+                        align-items: center;
+                        gap:10px;
+                    }
+                }
+            }
+
+            button{
+                border:1px solid #0D6EFD;
+                text-transform: capitalize;
+                color:#0D6EFD;
+                border-radius: 8px;
+            }
+        }
+
+        .card-detail {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+            border: 1px solid #dedede;
+            box-shadow: none;
+           
+            .heading{
+                display: flex;
+                gap:15px;
+                align-items: center;
+                .nama{
+                    h5{
+                        display: block;
+                        font-weight: 700;
+                        color: #222222;
+                        font-size: 16px;
+                        margin-top: 30px;
+                        transition:  300ms cubic-bezier(0.215,0.61,0.355,1);
+                        transition-property: color;
+                        text-decoration: none;
+                        &:hover{
+                            color:#0D6EFD;
+                        }
+                    }
+                    p{
+                        font-weight: 500;
+                        text-decoration: none;
+                        color: #6c757d;
+                        transition:  300ms cubic-bezier(0.215,0.61,0.355,1);
+                        transition-property: color;
+                        font-size: 13px;
+                        margin:5px 0 0 0;
+                        display: flex;
+                        align-items: center;
+                        gap:10px;
+                    }
+                }
+            }
+
+            button{
+                border:1px solid #0D6EFD;
+                text-transform: capitalize;
+                color:#0D6EFD;
+                border-radius: 8px;
+            }
+        }
+
+        .see-all{
+            margin:30px 400px;
+            display: flex;
+            justify-content: center;
+            background: #0D6EFD;
+            color:#ffff;
+            border-radius: 8px;
+          button{
+            text-transform: capitalize
+          }
+        }
+    }
+}
